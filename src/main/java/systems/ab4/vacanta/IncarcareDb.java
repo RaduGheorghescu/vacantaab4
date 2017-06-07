@@ -55,7 +55,7 @@ public class IncarcareDb implements ApplicationRunner{
                     Country country = new Country("Country"+i);
                     IntStream.range(0,3)
                             .forEach(j -> {
-                                County county = new County(country.getCountryName()+" - County"+j);
+                                County county = new County("County" + j);
                                 country.addCounty(county);
                                     IntStream.range(0, 20)
                                             .forEach(k ->{
@@ -63,7 +63,7 @@ public class IncarcareDb implements ApplicationRunner{
                                                 county.addCity(city);
                                                 IntStream.range(0,10)
                                                         .forEach(l ->{
-                                                            HolidayPlace holidayPlace = new HolidayPlace(city.getCityName()+" - Holiday"+l, 100 + 200 * random.nextDouble(), startDate, endDate);
+                                                            HolidayPlace holidayPlace = new HolidayPlace("Holiday" + l, 100 + 200 * random.nextDouble(), startDate, endDate);
                                                             city.addHolidayPlace(holidayPlace);
                                                             IntStream.range(0,2)
                                                                     .forEach(m ->{
