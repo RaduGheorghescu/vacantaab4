@@ -1,4 +1,4 @@
-package systems.ab4.vacanta.Model;
+package systems.ab4.vacanta.model;
 
 import org.springframework.format.annotation.DateTimeFormat;
 

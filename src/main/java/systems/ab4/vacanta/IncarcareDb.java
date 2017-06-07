@@ -3,11 +3,10 @@ package systems.ab4.vacanta;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;
-import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.stereotype.Component;
-import systems.ab4.vacanta.Model.*;
-import systems.ab4.vacanta.Repository.ActivityRepository;
-import systems.ab4.vacanta.Repository.CountryRepository;
+import systems.ab4.vacanta.model.*;
+import systems.ab4.vacanta.repository.ActivityRepository;
+import systems.ab4.vacanta.repository.CountryRepository;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;

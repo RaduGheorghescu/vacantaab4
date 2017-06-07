@@ -1,9 +1,7 @@
-package systems.ab4.vacanta.Model;
+package systems.ab4.vacanta.model;
 
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;
-import java.util.ArrayList;
-import java.util.List;
 
 /**
  * Created by radug on 6/7/2017.
